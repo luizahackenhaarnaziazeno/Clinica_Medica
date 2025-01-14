@@ -12,5 +12,3 @@ INSTRUÇÕES PARA O USUÁRIO:
 -A importância de guardar seus programas antigos para revisar caso tenha alguma dificuldade.
 -DIFICULDADES ENCONTRADAS E COMO AS RESOLVEU:
 -Tivemos dificuldades em chamar o método de cada classe,para resolvermos essas dificuldades revisamos o conceito de método e reevimos os trabalhos que estavamos com a mesma dificuldade,para lembrarmos do que fizemos para arrumar eles.
--LINK DO VÍDEO:
-https://youtu.be/feJRztCnAXI
