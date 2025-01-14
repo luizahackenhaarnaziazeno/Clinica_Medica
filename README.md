@@ -3,7 +3,13 @@
 ## Clinica Medica
 
 # :hammer: Funcionalidades do projeto
-
+- Adicionar paciente
+- Remover paciente
+- Escrever todo o cadastro do paciente
+- Escrever em ordem alfabética crescente
+- Média das consultas dos pacientes
+- Porcentagem dos pacientes com Covid, Dengue, Influenza, Meningite, Outro
+- Sair do programa
 
 ## Linguagem Utilizada:
 <div style="display: inline_block"><br>
