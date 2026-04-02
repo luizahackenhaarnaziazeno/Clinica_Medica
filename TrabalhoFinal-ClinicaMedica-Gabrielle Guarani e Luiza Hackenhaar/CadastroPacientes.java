@@ -1,17 +1,15 @@
 import java.util.Arrays;
-//classe cadastro paciente
+
 public class CadastroPacientes {
-    //declaro da onde ele vai buscar as informações para essa classe
+    
     private Paciente[] vetor;
-    //crio uma nova variavel que determina proxima posicao livre no vetor(com ela tambem sabemos ate aonde o vetor esta ocupado)
     private int index;
 
     public CadastroPacientes() {
-        vetor = new Paciente[10];//declaração da quantidade de paciente(espaço que o vetor alcança)
+        vetor = new Paciente[10];
         index = 0;
     }
 
-    //adiciona um paciente no cadastro
     public void adicionarPaciente(Paciente paciente) {
         if (index<=10) {
             vetor[index] = paciente;
@@ -22,7 +20,7 @@ public class CadastroPacientes {
         }
     }
 
-    //remove um paciente do cadastro (com o índice)
+    
     public void removerPaciente(int indice) {
         if (indice>=0 && indice<index) {
             for (int i=indice; i<index-1; i++) {
@@ -35,7 +33,7 @@ public class CadastroPacientes {
         }
     }
 
-    //escreve o cadastro de todos os pacientes
+ 
     public void escreverCadastro() {
         if (index == 0) {
             System.out.println("O cadastro está vazio.");
@@ -62,7 +60,6 @@ public class CadastroPacientes {
         }
     }
 
-    //calcula a média das consultas de todos os pacientes
     public double mediaConsultas() {
         if (index==0) {
             return 0;
@@ -76,7 +73,7 @@ public class CadastroPacientes {
         return (double) totalConsultas/index;
     }
 
-    //calcula a porcentagem de cada diagnóstico
+   
     public void porcentagemDiagnostico() {
         if (index==0) {
             System.out.println("Nenhum paciente cadastrado.");
@@ -96,7 +93,6 @@ public class CadastroPacientes {
         }
     }
 
-    //tipos de diagnósticos
     private String getDiagnosticoTipo(int diagnostico) {
         switch (diagnostico) {
             case 1:
