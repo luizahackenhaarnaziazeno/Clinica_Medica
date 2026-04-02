@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//classe aplicação aonde uso todos os métodos criados na classe cadastro paciente e os printo na tela.
+
 class Aplicacao {
     public static void main(String[] args) {
         CadastroPacientes cadastro = new CadastroPacientes();
